@@ -1,0 +1,43 @@
+{
+  "name": "flydev",
+  "version": "1.0.0",
+  "description": "Initial Project for fly",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundler": "webpack -w --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therss99here/flydev.git"
+  },
+  "author": "therss99here",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/therss99here/flydev/issues"
+  },
+  "homepage": "https://github.com/therss99here/flydev#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "express": "^4.17.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.13.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "react-test-renderer": "^18.0.0"
+  }
+}
